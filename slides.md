@@ -8,12 +8,10 @@ background: https://cover.sli.dev
 class: "text-center"
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  ## Einführung in das Vue.js/Nuxt Ökosystem
+  Tech Workshop 2025
 transition: slide-left
-title: Welcome to Slidev
+title: Einführung in das Vue.js/Nuxt Ökosystem
 mdc: true
 ---
 
