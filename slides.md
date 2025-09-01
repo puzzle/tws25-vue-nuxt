@@ -44,12 +44,22 @@ level: 2
 
 > An approachable, performant and versatile framework for building web user interfaces.
 
+
+---
+layout: image
+image: /front_end_frameworks_ratios.png
+backgroundSize: contain
+transition: slide-left
+---
+
+<!-- Quelle: https://2024.stateofjs.com/en-US/libraries/front-end-frameworks/ -->
+
 ---
 transition: slide-left
 level: 2
 ---
  - Single-File-Components
- - Extends standard HTML
+ - Erweitert den HTML Standard
  
 ```html
 <script setup>
@@ -77,39 +87,30 @@ level: 3
 ---
 
 ## Vue vs. Angular
-- Less opinionated
+- Weniger opinionated
+  - Build-Step optional
+  - Typescript support optional
 - Split- vs. Single File Components
-- Optional Typescript support
+- Open Source Community
 
 <!-- Vue kann auch ohne SFC und ohne build step in einer Seite eingebunden werden -->
-----
+---
+transition: slide-left
+level: 3
+zoom: 0.8
+---
 
-### Syntax differences
+
+### Syntax-Unterschiede
 
 |         | Angular           | Vue  |
 | ------------- |:-------------:| -----:|
 | Attribute binding | `[prop]="value"` | `:prop="value"` <br> `v-bind:prop="value"` |
+| Two-Way Data Binding | `v-model="value"` | `[(ngModel)]="value"`
 | Event binding | `(event)="doSomething($event)"` | `@event="doSomething"` <br> `v-on:event="doSomething"` |
 | Conditional rendering | `*ngIf="value"` <br> `@if (value) {}` | `v-if="value"` |
 | Loops | `*ngFor="let item of items"`  <br> `@for (item of items; track item.name) {}` | `v-for="item in items"` |
-
----
-transition: slide-left
-level: 3
----
-
-# Lorem ipsum
-
-Dolor sit amet...
-
----
-layout: image
-image: /front_end_frameworks_ratios.png
-backgroundSize: contain
-transition: slide-left
----
-
-<!-- Quelle: https://2024.stateofjs.com/en-US/libraries/front-end-frameworks/ -->
+| Content Projection | `<ng-content></ng-content>` <br> `<ng-content select="[slot-name]"></ng-content>` | `<slot></slot>` <br>  `<slot name="slot-name"></slot>` |
 
 
 ---
