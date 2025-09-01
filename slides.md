@@ -1,9 +1,6 @@
 ---
-# try also 'default' to start simple
 theme: default
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: /what-a-view.jpg
 # apply any unocss classes to the current slide
 class: "text-center"
 # some information about the slides, markdown enabled
@@ -20,42 +17,34 @@ mdc: true
 Tech Workshop 2025, Etienne Gobeli, Mathis Hofer
 
 ---
-layout: default
----
-
-# Table of contents
-
-<Toc maxDepth="1"></Toc>
-
----
 layout: cover
-transition: slide-up
+transition: slide-left
 level: 1
 ---
 
-# Vue.js
+# Frontend Applikationen mit Vue.js
 
 
 ---
 layout: quote
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
-> An approachable, performant and versatile framework for building web user interfaces.
+# "An approachable, performant and versatile framework for building web user interfaces."
 
 
 ---
 layout: image
 image: /front_end_frameworks_ratios.png
 backgroundSize: contain
-transition: slide-left
+transition: slide-up
 ---
 
 <!-- Quelle: https://2024.stateofjs.com/en-US/libraries/front-end-frameworks/ -->
 
 ---
-transition: slide-left
+transition: slide-up
 level: 2
 ---
  - Single-File-Components
@@ -82,7 +71,7 @@ button {
 -->
 
 ---
-transition: slide-left
+transition: slide-up
 level: 3
 ---
 
@@ -94,6 +83,7 @@ level: 3
 - Open Source Community
 
 <!-- Vue kann auch ohne SFC und ohne build step in einer Seite eingebunden werden -->
+
 ---
 transition: slide-left
 level: 3
@@ -111,7 +101,6 @@ zoom: 0.8
 | Conditional rendering | `*ngIf="value"` <br> `@if (value) {}` | `v-if="value"` |
 | Loops | `*ngFor="let item of items"`  <br> `@for (item of items; track item.name) {}` | `v-for="item in items"` |
 | Content Projection | `<ng-content></ng-content>` <br> `<ng-content select="[slot-name]"></ng-content>` | `<slot></slot>` <br>  `<slot name="slot-name"></slot>` |
-
 
 ---
 layout: cover
@@ -161,8 +150,8 @@ level: 2
 
 # Nuxt Features
 
-- File-based Routing
-- Code Splitting
+- File-basiertes Routing (Frontend und Backend)
+- Automatisches Code Splitting
 - Server-side rendering (SSR)
 - Static site generation (SSG)
 - Auto-Imports
@@ -170,9 +159,10 @@ level: 2
 - Verschiedene Render Modes (SSR, CSR, SSG) pro Route möglich
 - Type-safe (TypeScript Support)
 - Vite
-- Integriert Server-Engine Nitro
-- Node.js, Deno oder Edge Runtime
+- Powered von der Server-Engine Nitro
+- Runtimes: Node.js, Deno oder Edge
 - Nuxt Modules
+- ...
 
 ---
 layout: iframe-right
@@ -212,7 +202,7 @@ node .output/server/index.mjs
 → `.output/` Directory in einen Node Container kopieren und los...
 
 ---
-transition: slide-up
+transition: slide-left
 level: 2
 ---
 
@@ -222,3 +212,11 @@ level: 2
   - `pages/` – File-based Routing, Page Komponenten → http://localhost:3000/
 - `server/` – Nitro Backend
   - `api/` – Server-seitiges File-based Routing → http://localhost:3000/api/
+
+---
+layout: cover
+transition: slide-up
+level: 1
+---
+
+# Happy hands-on Hacking!
