@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -17,38 +17,54 @@ mdc: true
 
 # Einführung in das Vue.js/Nuxt Ökosystem
 
-Tech Workshop 2025
+Tech Workshop 2025, Etienne Gobeli, Mathis Hofer
 
 ---
-
-## layout: default
+layout: default
+---
 
 # Table of contents
-
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
 
 <Toc maxDepth="1"></Toc>
 
 ---
-
+layout: cover
 transition: slide-up
 level: 1
-
 ---
 
 # Vue.js
 
-...
-
+---
+transition: slide-left
+level: 2
 ---
 
+# Lorem ipsum
+
+Dolor sit amet...
+
+---
+layout: cover
 transition: slide-up
 level: 1
-
 ---
 
-# Nuxt
+# Full Stack Applikationen mit Nuxt
 
-...
+---
+layout: quote
+transition: slide-left
+level: 2
+---
+
+> Nuxt's goal is to make web development intuitive and performant with a great Developer Experience in mind.
+
+---
+transition: slide-left
+level: 2
+---
+
+# Lorem ipsum
+
+Dolor sit amet...
