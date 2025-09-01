@@ -265,6 +265,9 @@ level: 2
 
 - `app/` – Vue.js Frontend
   - `pages/` – File-based Routing, Page Komponenten → http://localhost:3000/
+  - `components/` – UI Komponenten
+  - `layouts/` – Wiederverwendbare Layouts
+  - `composables/` – Stateful Logik
 - `server/` – Nitro Backend
   - `api/` – Server-seitiges File-based Routing → http://localhost:3000/api/
 
