@@ -39,3 +39,4 @@ Nachmittag:
 - [Nuxt 4 Dokumentation](https://nuxt.com/docs/4.x/getting-started/introduction)
 - [Nitro](https://nitro.build/) und [H3](https://h3.dev/)
 - [UnJS](https://unjs.io/)
+- [Compatibility Date in Nuxt 4 and Nitro](https://www.youtube.com/watch?v=RqOPfhAWSl0)

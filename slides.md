@@ -119,7 +119,7 @@ transition: slide-up
 level: 1
 ---
 
-# Full Stack Applikationen<br>mit Nuxt
+# Full Stack Applikationen mit Nuxt
 
 ---
 layout: quote
