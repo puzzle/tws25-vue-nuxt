@@ -30,7 +30,7 @@ jobs:
 
       - name: Build 🏭
         run: |
-          pnpm build --base=/techkafi-nonlazy-angular-signals/
+          pnpm build --base=/tws25-vue-nuxt/
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
