@@ -35,9 +35,67 @@ level: 1
 
 # Vue.js
 
+
+---
+layout: quote
+transition: slide-left
+level: 2
+---
+
+> An approachable, performant and versatile framework for building web user interfaces.
+
 ---
 transition: slide-left
 level: 2
+---
+ - Single-File-Components
+ - Extends standard HTML
+ 
+```html
+<script setup>
+  import { ref } from 'vue'
+  const count = ref(0)
+</script>
+
+<template>
+  <button @click="count++">Count is: {{ count }}</button>
+</template>
+
+<style scoped>
+button {
+  font-weight: bold;
+}
+</style>
+```
+<!-- Wird normalerweise mit SFC's gebraucht => Beispiel Komponente
+    Vue files sind sind standard HTML files mit zusätzlichen attributes
+-->
+
+---
+transition: slide-left
+level: 3
+---
+
+## Vue vs. Angular
+- Less opinionated
+- Split- vs. Single File Components
+- Optional Typescript support
+
+<!-- Vue kann auch ohne SFC und ohne build step in einer Seite eingebunden werden -->
+----
+
+### Syntax differences
+
+|         | Angular           | Vue  |
+| ------------- |:-------------:| -----:|
+| Attribute binding | `[prop]="value"` | `:prop="value"` <br> `v-bind:prop="value"` |
+| Event binding | `(event)="doSomething($event)"` | `@event="doSomething"` <br> `v-on:event="doSomething"` |
+| Conditional rendering | `*ngIf="value"` <br> `@if (value) {}` | `v-if="value"` |
+| Loops | `*ngFor="let item of items"`  <br> `@for (item of items; track item.name) {}` | `v-for="item in items"` |
+
+---
+transition: slide-left
+level: 3
 ---
 
 # Lorem ipsum
