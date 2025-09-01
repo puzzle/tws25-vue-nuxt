@@ -119,7 +119,7 @@ transition: slide-up
 level: 1
 ---
 
-# Full Stack Applikationen mit Nuxt
+# Full Stack Applikationen<br>mit Nuxt
 
 ---
 layout: quote
@@ -127,7 +127,9 @@ transition: slide-left
 level: 2
 ---
 
-> Nuxt's goal is to make web development intuitive and performant with a great Developer Experience in mind.
+# "Nuxt's goal is to make web development intuitive and performant with a great Developer Experience in mind."
+
+Source: Nuxt Dokumentation
 
 ---
 transition: slide-left
@@ -165,8 +167,30 @@ level: 2
 - Static site generation (SSG)
 - Auto-Imports
 - SSR-kompatibles Data Fetching
-- Built-in TypeScript support
+- Verschiedene Render Modes (SSR, CSR, SSG) pro Route möglich
+- Type-safe (TypeScript Support)
 - Vite
 - Integriert Server-Engine Nitro
 - Node.js, Deno oder Edge Runtime
+- Nuxt Modules
+
+---
+layout: iframe-right
+url: https://nitro.build/
+transition: slide-left
+level: 2
+---
+
+# Nitro Server Engine
+
+https://nitro.build/
+
+- Basiert auf [H3](https://h3.dev/)
+- **Nitro Plugins** (App-weit) \
+  Use Cases: Datenbank Connection Pool erstellen, Error Handling, Cleanup beim Shutdown
+- **Nitro Middlewares** (pro Request) \
+  Use Cases: Auth, Header Manipulation, Loggin, Request Rewriting
+- **API Routes** (Route Handlers)
+- `$fetch` ([ofetch](https://ofetch.unjs.io/)-basiert) \
+  → führt Request aus im Frontend, ruft Handler direkt auf im Backend
 
