@@ -14,7 +14,54 @@ mdc: true
 
 # Einführung in das Vue.js/Nuxt Ökosystem
 
-Tech Workshop 2025, Etienne Gobeli, Mathis Hofer
+Puzzle Tech Workshop 04.09.2025<br>Etienne Gobeli, Mathis Hofer
+
+https://github.com/puzzle/tws25-vue-nuxt
+
+---
+layout: cover
+transition: slide-up
+level: 1
+---
+
+# Hintergrund
+
+---
+layout: quote
+transition: slide-up
+level: 2
+---
+
+# Bei der aktuellen weltpolitischen Lage wird immer klarer wie problematisch unsere Abhängigkeit von Unternehmen aus dem Silicon Valley ist. Dies betrifft auch den Frontend-Bereich, wo die Framework-Landschaft domiert wird von Meta (React) und Google (Angular).
+
+---
+layout: quote
+transition: slide-up
+level: 2
+---
+
+# Das Vue.js/Nuxt Ökosystem bietet eine etablierte, unabhängige Alternative.
+
+---
+transition: slide-left
+level: 2
+---
+
+# Eine kurze Geschichte...
+
+- **Vue.js** (2013): \
+  [Evan You](https://github.com/yyx990803), ehem. Google/AngularJS Entwickler ruft Vue.js als leichtgewichtige Alternative ins Leben
+- **Vue 1.0** (Oktober 2014) \
+  Two-way Databinding, Komponenten, Custom Direktiven und Transitions/Animationen
+- **Vue 2.0** (September 2016): \
+  Virtual DOM (schnelleres Rendering) und SSR, erweitertes Komponentensystem, Vue Router, Vuex und Vue CLI
+- **Nuxt** (Oktober 2016)
+- **Vue 3.0** (September 2020): \
+  Komplettes Rewrite in TypeScript, Composition API etc.
+- **Nuxt 3.0** (November 2022): \
+  Rewrite mit Vite, Vue 3.0 und Nitro
+
+Siehe [A Brief History of Vue.js: From a Side Project to a Global Framework ](https://jimmywong.co.uk/2025/03/brief-history-of-vuejs.html)
 
 ---
 layout: cover

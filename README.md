@@ -34,6 +34,7 @@ Slides: [puzzle.github.io/tws25-vue-nuxt](https://puzzle.github.io/tws25-vue-nux
 - Testing mit Vitest/Playwright
 - Auth
 - Datenbankanbindung mit [Kysely](https://www.kysely.dev/)
+- [Nuxt Supabase](https://supabase.nuxtjs.org/)
 
 ## Ressourcen
 
