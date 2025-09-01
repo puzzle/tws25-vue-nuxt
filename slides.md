@@ -45,6 +45,16 @@ level: 2
 Dolor sit amet...
 
 ---
+layout: image
+image: /front_end_frameworks_ratios.png
+backgroundSize: contain
+transition: slide-left
+---
+
+<!-- Quelle: https://2024.stateofjs.com/en-US/libraries/front-end-frameworks/ -->
+
+
+---
 layout: cover
 transition: slide-up
 level: 1
@@ -65,6 +75,39 @@ transition: slide-left
 level: 2
 ---
 
-# Lorem ipsum
+# Wieso Nuxt?
 
-Dolor sit amet...
+- Full-featured Framework für Vue
+- Zero-config, opinionated
+- Open Source (keine grosse Silicon Valley Firma dahinter)
+- Type-safe
+- Performant
+- Lebendiges und etabliertes Ökosystem
+
+---
+layout: image
+image: /meta_frameworks_ratios.png
+backgroundSize: contain
+transition: slide-left
+---
+
+<!-- Quelle: https://2024.stateofjs.com/en-US/libraries/meta-frameworks/ -->
+
+---
+transition: slide-left
+level: 2
+---
+
+# Nuxt Features
+
+- File-based Routing
+- Code Splitting
+- Server-side rendering (SSR)
+- Static site generation (SSG)
+- Auto-Imports
+- SSR-kompatibles Data Fetching
+- Built-in TypeScript support
+- Vite
+- Integriert Server-Engine Nitro
+- Node.js, Deno oder Edge Runtime
+
