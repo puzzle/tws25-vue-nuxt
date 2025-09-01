@@ -14,7 +14,9 @@ Nachmittag:
 - Nuxt Überblick Slides
 - [Nuxt-Einstieg](https://nuxt.com/docs/4.x/getting-started/introduction) mit offizieller Doku
 - Hands-on Nuxt \
-  → Nuxt Projekt erstellen und bestehende SPA als Full Stack App überführen
+  → Eigenes Nuxt Projekt erstellen und bestehende SPA als Full Stack App überführen
+
+Slides: [puzzle.github.io/tws25-vue-nuxt](https://puzzle.github.io/tws25-vue-nuxt/)
 
 ## Ideen für weiterführende Themen
 
