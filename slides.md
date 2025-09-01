@@ -123,7 +123,7 @@ level: 1
 
 ---
 layout: quote
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
@@ -132,7 +132,7 @@ level: 2
 Source: Nuxt Dokumentation
 
 ---
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
@@ -149,13 +149,13 @@ level: 2
 layout: image
 image: /meta_frameworks_ratios.png
 backgroundSize: contain
-transition: slide-left
+transition: slide-up
 ---
 
 <!-- Quelle: https://2024.stateofjs.com/en-US/libraries/meta-frameworks/ -->
 
 ---
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
@@ -177,7 +177,7 @@ level: 2
 ---
 layout: iframe-right
 url: https://nitro.build/
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
@@ -194,3 +194,31 @@ https://nitro.build/
 - `$fetch` ([ofetch](https://ofetch.unjs.io/)-basiert) \
   → führt Request aus im Frontend, ruft Handler direkt auf im Backend
 
+---
+transition: slide-up
+level: 2
+---
+
+# (Nitro) Build
+
+Mit Rollup und Treeshaking
+
+Bundeled den Server Code in ein einziges JS File, welches einfach gestartet werden kann:
+
+```
+node .output/server/index.mjs
+```
+
+→ `.output/` Directory in einen Node Container kopieren und los...
+
+---
+transition: slide-up
+level: 2
+---
+
+# Projektstruktur
+
+- `app/` – Vue.js Frontend
+  - `pages/` – File-based Routing, Page Komponenten → http://localhost:3000/
+- `server/` – Nitro Backend
+  - `api/` – Server-seitiges File-based Routing → http://localhost:3000/api/
