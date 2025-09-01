@@ -1,30 +1,41 @@
-# repository-template
-Dieses Repo dient als Beispiel und Template für unsere Open Source Repos, und zeigt auf, was wir alles von unseren Repos erwarten. Es basiert auf den [Empfehlungen des Open Source Branches](https://docs.puzzle.ch/user-guides/github-user-guide/index.html).
+# Einführung in das Vue.js/Nuxt Ökosystem
 
-## Sprache
+## Themen/Programm
 
-Für öffentliche Projekte sollte immer Englisch genutzt werden. Wir können in unserer Doku für uns selbst Deutsch nutzen,
-es ist aber einfacher, wenn von Anfang an alles in Englisch gehalten wird, und nicht gemischt wird bzw irgendwann übersetzt
-werden muss.
+Morgen:
 
-## Github-Settings
+- Vue.js Überblick Slides
+- [Vue.js Tutorial](https://vuejs.org/tutorial/) durcharbeiten
+- Hands-on Vue.js \
+  → eigene SPA entwickeln
 
-### Branch Protection
-Setzt dies mindestens so, dass nur in `main` gemerged werden kann, wenn ein PR erstellt wurde und dieser mindestens 1 Approval hat - und
-dass auch Admins dies nicht bypassen dürfen. Wenn ihr direkt aus Github deployed, dann kann es sich auch lohnen, merges nur zuzulassen,
-wenn die Deployments und/oder CI Pipelines erfolgreich waren.
+Nachmittag:
 
-## Dateien
+- Nuxt Überblick Slides
+- [Nuxt-Einstieg](https://nuxt.com/docs/4.x/getting-started/introduction) mit offizieller Doku
+- Hands-on Nuxt \
+  → Nuxt Projekt erstellen und bestehende SPA als Full Stack App überführen
 
-* README - was macht dieses Repo, wie kann man es selber verwenden? Kann gesplittet werden, wenn es zu lang wird.
-* LICENSE - alle Repos müssen sauber lizenziert sein. Der [OSS-Guide in Docs](https://docs.puzzle.ch/user-guides/oss-user-guide/index.html#_lizenztypen) hat Tips, und die Branch-Members können auch helfen.
-* CODEOWNERS - wer ist Ansprechpartner? Wenn hier niemand eingetragen ist, oder nur noch Leute, die nicht bei Puzzle sind, dann wird's archiviert...
-* Code of Conduct, hier muss noch eine Email Adresse von Verantwortlichen hinterlegt werden
+## Ideen für weiterführende Themen
 
-Techlabs bilden hier eine Ausnahme. Für diese muss nur ein ReadMe mit letztem Aktualisierungsdatum und eine Lizenz hinterlegt werden.
+- State management
+  - `useState`
+  - [Pinia](https://pinia.vuejs.org/ssr/nuxt.html)
+- [Nuxt Content](https://content.nuxt.com/) (File-basiertes CMS with Markdown files)
+- [Nuxt Devtools](https://devtools.nuxt.com/)
+- Tailwind in Nuxt-Projekt integrieren
+- Headless Components with Vue
+  - https://headlessui.com/v1/vue/menu
+  - https://ark-ui.com/
+  - ...?
+- [Nuxt Image](https://image.nuxt.com/)
+- Testing mit Vitest/Playwright
+- Auth
+- Datenbankanbindung mit [Kysely](https://www.kysely.dev/)
 
-## Weitergedacht
+## Ressourcen
 
-Wenn eine Community aufgebaut wird, kann eine Anleitung für Contributions (in CONTRIBUTING.md) und Security Policy bzw. Security-Kontakt (in SECURITY.md) hilfreich sein.
-
-OpenSSF Badges u.ä.
+- [Vue.js Dokumentation](https://vuejs.org/guide/introduction.html)
+- [Nuxt 4 Dokumentation](https://nuxt.com/docs/4.x/getting-started/introduction)
+- [Nitro](https://nitro.build/) und [H3](https://h3.dev/)
+- [UnJS](https://unjs.io/)
