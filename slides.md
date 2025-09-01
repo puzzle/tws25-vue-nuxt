@@ -43,7 +43,7 @@ level: 2
 # Das Vue.js/Nuxt Ökosystem bietet eine etablierte, unabhängige Alternative.
 
 ---
-transition: slide-left
+transition: slide-up
 level: 2
 ---
 
@@ -54,14 +54,22 @@ level: 2
 - **Vue 1.0** (Oktober 2014) \
   Two-way Databinding, Komponenten, Custom Direktiven und Transitions/Animationen
 - **Vue 2.0** (September 2016): \
-  Virtual DOM (schnelleres Rendering) und SSR, erweitertes Komponentensystem, Vue Router, Vuex und Vue CLI
+  Virtual DOM und SSR, erweitertes Komponentensystem, Vue Router, Vuex und Vue CLI
 - **Nuxt** (Oktober 2016)
+- **Vite** (April 2020)
 - **Vue 3.0** (September 2020): \
   Komplettes Rewrite in TypeScript, Composition API etc.
 - **Nuxt 3.0** (November 2022): \
   Rewrite mit Vite, Vue 3.0 und Nitro
 
 Siehe [A Brief History of Vue.js: From a Side Project to a Global Framework ](https://jimmywong.co.uk/2025/03/brief-history-of-vuejs.html)
+
+---
+layout: iframe
+url: https://unjs.io/relations?u[]=automd&u[]=bundle-runner&u[]=c12&u[]=changelogen&u[]=citty&u[]=confbox&u[]=consola&u[]=cookie-es&u[]=crossws&u[]=db0&u[]=defu&u[]=destr&u[]=fontaine&u[]=fs-memo&u[]=get-port-please&u[]=giget&u[]=h3&u[]=hookable&u[]=httpxy&u[]=image-meta&u[]=ipx&u[]=jimp-compact&u[]=jiti&u[]=knitwork&u[]=listhen&u[]=magic-regexp&u[]=magicast&u[]=mdbox&u[]=mkdist&u[]=mlly&u[]=mongoz&u[]=nanotar&u[]=nitropack&u[]=node-fetch-native&u[]=nypm&u[]=ofetch&u[]=ohash&u[]=pathe&u[]=perfect-debounce&u[]=pkg-types&u[]=radix3&u[]=rc9&u[]=scule&u[]=serve-placeholder&u[]=std-env&u[]=theme-colors&u[]=ufo&u[]=unbuild&u[]=uncrypto&u[]=unctx&u[]=undocs&u[]=unenv&u[]=unhead&u[]=unimport&u[]=unpdf&u[]=unplugin&u[]=unstorage&u[]=untun&u[]=untyped&u[]=unwasm&u[]=uqr&u[]=webpackbar&showDependencies=true&showDevDependencies=false&showChildren=false
+transition: slide-left
+level: 2
+---
 
 ---
 layout: cover
